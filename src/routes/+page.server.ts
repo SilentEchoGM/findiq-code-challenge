@@ -20,7 +20,6 @@ export const load: PageServerLoad = ({ cookies }) => {
 
 export const actions: Actions = {
   register: async ({ request }) => {
-    console.log(request);
     const data = await request.formData();
 
     const name = data.get("username");

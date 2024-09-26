@@ -1,7 +1,7 @@
 export type Card = {
   question: string;
   answer: string;
-  wrongAnswers: string[];
+  wrongAnswers: string;
   userId: string;
   id: number;
 };
