@@ -5,7 +5,10 @@
 <svelte:head>
   <script
     src="https://kit.fontawesome.com/59f062f733.js"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
 </svelte:head>
 
-<slot />
+<div class="container m-auto bg-[#313d5a] h-screen text-[#cbc5ea]">
+  <slot />
+</div>
